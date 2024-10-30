@@ -16,6 +16,8 @@ pymysql = "^1.1.1"
 pytest = "^8.3.3"
 pydantic-settings = "^2.6.0"
 passlib = "^1.7.4"
+boto3 = "^1.35.51"
+bcrypt = "^4.2.0"
 
 
 [build-system]

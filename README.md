@@ -5,3 +5,9 @@ FastAPI로 구현하는 간단한 DB CRUD
 
 ## TODO
 - /healthz에 헬스체크 만들기
+
+
+### env
+
+- `SECRET_NAME`
+- `USE_AWS_SECRETS`
