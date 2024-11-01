@@ -2,6 +2,7 @@
 
 FastAPI로 구현하는 간단한 DB CRUD
 
+
 ## 환경변수
 
 > USE_AWS_SECRETS 환경 변수의 값을 `true`로 지정하면 SECRET_NAME에 해당 하는 Secret에서 DB 연동에 필요한 값을 로드
@@ -32,12 +33,20 @@ uvicorn app.main:app --reload
 
 ## API 목록
 
-> health check 경로 - /healthz  
-> Status Code가 200이 리턴될 시 정상  
+<https://kkamji-app-backend.kkamji.net/docs>
 
 ![alt text](docs/swagger.png)
 
-## 디렉토리 구조 
+## Health check
+
+<https://kkamji-app-backend.kkamji.net/healthz>
+
+> health check 경로 - /healthz  
+> Status Code가 200이 리턴될 시 정상  
+
+![alt text](docs/health_check.png)
+
+## 디렉토리 구조
 
 ```bash
 ❯ tree
