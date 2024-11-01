@@ -36,3 +36,35 @@ uvicorn app.main:app --reload
 > Status Code가 200이 리턴될 시 정상  
 
 ![alt text](docs/swagger.png)
+
+## 디렉토리 구조 
+
+```bash
+❯ tree
+.
+├── Dockerfile
+├── README.md
+├── app
+│   ├── api
+│   │   ├── __init__.py
+│   │   ├── health_check.py
+│   │   ├── posts.py
+│   │   └── users.py
+│   ├── config.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   └── security.py
+│   ├── database.py
+│   ├── main.py
+│   ├── models
+│   │   ├── post.py
+│   │   └── user.py
+│   ├── schemas.py
+│   └── services
+│       ├── post_service.py
+│       └── user_service.py
+├── docs
+│   └── swagger.png
+├── poetry.lock
+└── pyproject.toml
+```
